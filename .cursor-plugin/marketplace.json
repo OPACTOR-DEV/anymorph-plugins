@@ -1,0 +1,17 @@
+{
+  "name": "anymorph",
+  "owner": {
+    "name": "Anymorph",
+    "url": "https://anymorph.ai"
+  },
+  "metadata": {
+    "description": "Anymorph plugins for AI agents"
+  },
+  "plugins": [
+    {
+      "name": "anymorph",
+      "source": "anymorph",
+      "description": "Connect an AI agent to your Anymorph workspace: read AI visibility, mentions, citations, prompts and pages as the dashboard shows them, export the data as CSV, and change prompts or pages where the workspace allows it."
+    }
+  ]
+}

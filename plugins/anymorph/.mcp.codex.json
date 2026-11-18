@@ -1,0 +1,17 @@
+{
+  "mcpServers": {
+    "anymorph": {
+      "url": "https://mcp.anymorph.ai",
+      "extensions": {
+        "com.openai": {
+          "auth": {
+            "type": "oauth",
+            "client": {
+              "mode": "dcr"
+            }
+          }
+        }
+      }
+    }
+  }
+}

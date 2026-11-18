@@ -1,0 +1,21 @@
+{
+  "name": "anymorph",
+  "version": "0.1.0",
+  "description": "Connect an AI agent to your Anymorph workspace: read AI visibility, mentions, citations, prompts and pages as the dashboard shows them, export the data as CSV, and change prompts or pages where the workspace allows it.",
+  "author": {
+    "name": "Anymorph",
+    "url": "https://anymorph.ai"
+  },
+  "homepage": "https://anymorph.ai",
+  "repository": "https://github.com/OPACTOR-DEV/anymorph-plugins",
+  "license": "MIT",
+  "keywords": [
+    "geo",
+    "ai-visibility",
+    "ai-search",
+    "citations",
+    "mcp"
+  ],
+  "privacyPolicyUrl": "https://anymorph.ai/privacy",
+  "supportUrl": "https://docs.anymorph.ai/guides/mcp"
+}

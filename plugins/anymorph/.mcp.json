@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "anymorph": {
+      "type": "http",
+      "url": "https://mcp.anymorph.ai"
+    }
+  }
+}

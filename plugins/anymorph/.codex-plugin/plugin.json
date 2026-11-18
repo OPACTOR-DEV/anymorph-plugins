@@ -1,0 +1,47 @@
+{
+  "name": "anymorph",
+  "version": "0.1.0",
+  "description": "Connect an AI agent to your Anymorph workspace: read AI visibility, mentions, citations, prompts and pages as the dashboard shows them, export the data as CSV, and change prompts or pages where the workspace allows it.",
+  "author": {
+    "name": "Anymorph",
+    "url": "https://anymorph.ai"
+  },
+  "homepage": "https://anymorph.ai",
+  "repository": "https://github.com/OPACTOR-DEV/anymorph-plugins",
+  "license": "MIT",
+  "keywords": [
+    "geo",
+    "ai-visibility",
+    "ai-search",
+    "citations"
+  ],
+  "skills": "./skills/",
+  "mcpServers": "./.mcp.codex.json",
+  "interface": {
+    "displayName": "Anymorph",
+    "shortDescription": "Your Anymorph workspace in your agent",
+    "longDescription": "Read your Anymorph workspace from your AI agent: AI visibility and mention rates by engine, the AI answers and the sources they cite, tracked prompts, competitors, pages and traffic, as the dashboard shows them. Export any of it as a CSV file for a report, and edit, publish or take down pages and prompts where a workspace admin allows changes from AI apps. Sign in with your Anymorph account and choose the workspaces and permissions to allow.",
+    "developerName": "Anymorph",
+    "category": "Data & Analytics",
+    "capabilities": [
+      "Read AI visibility",
+      "Read cited sources",
+      "Export CSV",
+      "Edit pages and prompts"
+    ],
+    "websiteURL": "https://anymorph.ai",
+    "privacyPolicyURL": "https://anymorph.ai/privacy",
+    "termsOfServiceURL": "https://anymorph.ai/terms",
+    "defaultPrompt": [
+      "Summarize this month's AI visibility for my brand by engine",
+      "Which prompts are we losing to competitors, and to whom?",
+      "Export the last 30 days of AI answers and their sources as a CSV"
+    ],
+    "brandColor": "#0B0B0B",
+    "composerIcon": "./assets/composer-icon.png",
+    "composerIconDark": "./assets/composer-icon.png",
+    "logo": "./assets/logo.png",
+    "logoDark": "./assets/logo-dark.png",
+    "supportURL": "https://docs.anymorph.ai/guides/mcp"
+  }
+}

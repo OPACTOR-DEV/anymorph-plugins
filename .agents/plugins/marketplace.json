@@ -1,0 +1,20 @@
+{
+  "name": "anymorph",
+  "interface": {
+    "displayName": "Anymorph"
+  },
+  "plugins": [
+    {
+      "name": "anymorph",
+      "source": {
+        "source": "local",
+        "path": "./plugins/anymorph"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}
