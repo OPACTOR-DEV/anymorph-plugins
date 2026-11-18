@@ -49,4 +49,4 @@ Any other MCP client, such as Claude, ChatGPT or Cursor without the plugin: add 
 - `gemini-extension.json`, `GEMINI.md`: the Gemini CLI extension at the repository root.
 - `skills/anymorph/`: the skill, copied into `plugins/anymorph/skills/` and `GEMINI.md` by `node scripts/sync-skill.mjs`.
 
-Guide: https://docs.anymorph.ai/guides/mcp. License: MIT.
+Guide: https://docs.anymorph.ai/ai-agents/coding-agents. License: MIT.
