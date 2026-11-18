@@ -19,11 +19,19 @@ Codex:
 
 ```bash
 codex plugin marketplace add OPACTOR-DEV/anymorph-plugins
+codex plugin add anymorph@anymorph
+codex mcp login anymorph
 ```
 
-Then open the plugin directory in Codex and install Anymorph. If Codex does not open the sign-in page, run `codex mcp login anymorph`.
+The last command opens the sign-in page in your browser.
 
-Cursor: add this repository as a plugin marketplace and install `anymorph`. Cursor shows a Connect button for the server.
+Cursor:
+
+```bash
+cursor-agent plugin marketplace add https://github.com/OPACTOR-DEV/anymorph-plugins
+```
+
+Then open `/plugins` in Cursor Agent and install `anymorph`, and sign in from `/mcp` by choosing Anymorph and Login.
 
 Gemini CLI:
 

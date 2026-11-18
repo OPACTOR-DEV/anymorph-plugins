@@ -24,5 +24,5 @@ Anymorph measures how AI answer engines (ChatGPT, Gemini, Perplexity, Google AI 
 - Answer from the workspace's own records before the outside research tools.
 - A refusal names the setting or permission that stopped the call. Tell the user what it says instead of retrying.
 - Use the dashboard's terms (AI visibility, mentions, citations, prompts, pages) and show ids only when the user asks.
-- If the `anymorph` tools are missing or a call says the server needs authentication, ask the user to sign in: `/mcp` in Claude Code, `codex mcp login anymorph` in Codex, `/mcp auth anymorph` in Gemini CLI, or Connect in Cursor.
+- If the `anymorph` tools are missing or a call says the server needs authentication, ask the user to sign in: `/mcp` in Claude Code, `codex mcp login anymorph` in Codex, `/mcp auth anymorph` in Gemini CLI, or Login on Anymorph under `/mcp` in Cursor.
 - Guide: https://docs.anymorph.ai/guides/mcp
