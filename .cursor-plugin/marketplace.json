@@ -10,7 +10,7 @@
   "plugins": [
     {
       "name": "anymorph",
-      "source": "anymorph",
+      "source": "plugins/anymorph",
       "description": "Connect an AI agent to your Anymorph workspace: read AI visibility, mentions, citations, prompts and pages as the dashboard shows them, export the data as CSV, and change prompts or pages where the workspace allows it."
     }
   ]
